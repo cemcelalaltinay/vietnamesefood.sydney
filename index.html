@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnamese Food Sydney</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css"> <!-- fontawesome -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
+    
+
+</head>
+<body>    
+    <!-- Intro -->
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-01.jpg">
+        <nav id="tm-nav" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
+                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-4 mx-4"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4">Intro</a></li>
+                  <!--  <li class="inline-block mb-4 mx-4"><a href="#menu" class="tm-text-gold py-1 md:py-3 px-4">Menu</a></li> -->
+                    <li class="inline-block mb-4 mx-4"><a href="#about" class="tm-text-gold py-1 md:py-3 px-4">About</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#contact" class="tm-text-gold py-1 md:py-3 px-4">Contact</a></li>
+                </ul>
+            </div>            
+        </nav>
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">Vietnamese Food Sydney</h1>
+                    <p class="tm-text-gold tm-text-2xl">Sydney’s Top Vietnamese Dining Spot</p>
+                </div>    
+                <div class="bg-black bg-opacity-70 p-10 mb-5">
+                    <p class="text-white leading-8 text-sm font-light">
+                        Savour Sydney’s finest Vietnamese cuisine at Vietnamese Food Sydney. Bold pho, crispy bánh mì, and fresh flavours await. Taste the difference today! </p>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block">
+                        <a href="#menu" class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
+                            <i class="fas fa-coffee mr-3"></i>
+                            <span>Let's explore...</span>                        
+                        </a>
+                    </div>                    
+                </div>                
+            </div>
+        </div>        
+    </div>
+    <!-- Cafe Menu 
+    <div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-02.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Our Cafe Menu</h2>
+            </div>            
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-item-1.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Cappuccino</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">S $8.50</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $10.50</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">S $9.50 . BG #544639</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $12.50</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-item-3.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte #FC6</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">M $11.75</div>
+                            <div class="text-white text-md sm:text-lg font-light">L $14.75</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-item-4.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Hot Espresso</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Size M $11.75 . L $14.75</div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Cappuccino</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $10</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $15</div>
+                        </div>
+                        <img src="img/menu-item-5.jpg" alt="Image" class="rounded-md">                   
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $12.50</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $16.50</div>
+                        </div>
+                        <img src="img/menu-item-6.jpg" alt="Image" class="rounded-md">                    
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Milky Latte</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Small $14</div>
+                            <div class="text-white text-md sm:text-lg font-light">Large $18</div>
+                        </div>   
+                        <img src="img/menu-item-7.jpg" alt="Image" class="rounded-md">                 
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Iced Espresso</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Mocha</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Small $10 . Large $15</div>
+                        </div> 
+                        <img src="img/menu-item-8.jpg" alt="Image" class="rounded-md">                   
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div> -->
+    <div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-03.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                    <h2 class="mb-6 tm-text-green text-4xl font-medium">About our restaurant</h2>
+                    <p class="mb-6 text-base leading-8">
+                        Hungry for the electrifying tastes of Vietnam right here in Sydney? Step into Vietnamese Food Sydney, where the air hums with the scent of slow-simmered pho broth, the crunch of a freshly baked bánh mì echoes with every bite, and the zest of hand-picked herbs dances across your palate. Tucked into the vibrant pulse of this city, our restaurant reigns supreme as Sydney’s ultimate haven for Vietnamese cuisine. We don’t just dish up plates—we sweep you into a sensory whirlwind, channeling the chaotic charm of Hanoi’s street stalls and the aromatic allure of Ho Chi Minh City’s markets, all wrapped in a distinctly Aussie flair. At Vietnamese Food Sydney, tradition meets audacity in a menu that pulses with life, staking its claim as the unrivalled king of Vietnamese dining in this town.
+
+                        Push open our doors and brace yourself for a riot of flavours. The hiss of lemongrass-infused pork sizzling over flames greets you, while the deep, soulful aroma of our pho—simmered for a relentless 24 hours with a clandestine mix of spices—pulls you in like a siren’s call. Our chefs, wielding skills honed across generations, pluck the crispest bean sprouts, the most fragrant Thai basil, and the tenderest Australian beef to forge dishes that explode with authenticity and verve. Picture this: vermicelli noodle salads that juggle sweet, sour, and spicy in a tightrope act of perfection, or bánh xèo pancakes that crackle with golden crispness, revealing a steamy heart of prawns and sprouts. Every creation here isn’t just food—it’s a loud, proud declaration of heritage served hot and fresh.
+                        
+                        The atmosphere at Vietnamese Food Sydney crackles with its own energy. Warm light spills across rugged wooden tables, the clatter of chopsticks mingles with the murmur of shared laughter, and the spirit of Vietnam’s communal feasts fills the room. This isn’t a mere dining spot—it’s a living, breathing celebration of a culture that thrives on connection. Our rice paper rolls, plump with prawns, herbs, and vermicelli, arrive with a nuoc cham dipping sauce that lands a knockout punch of salty-sweet heat. Our bánh mì? A full-on assault of crusty bread, grilled pork belly or chicken, pickled carrots, and a slick of house-made pate that’ll have you licking your fingers in defiance of decorum. And the pho—oh, the pho—its broth, laced with star anise and a flicker of charred ginger, could stop time with its depth.
+                        
+                        We don’t stop at the classics. At Vietnamese Food Sydney, we throw curveballs that keep your tastebuds guessing. Sink your teeth into caramelised fish, slow-cooked in clay pots until it melts like butter, or tackle the fiery depths of our bun bo Hue, a spicy noodle soup that dares you to keep up. Located at [Your Address], we’re a fortress of flavour open seven days a week, feeding the lunch crowd and the late-night seekers alike. Gluten-free? We’ve got you with zinging vegan options stacked with tofu and greens. Halal? Our certified meats deliver without compromise. Generous portions, staff who greet you like family, and an electric vibe make every visit a memory stamped in bold.
+                        
+                        Why chase mediocrity when Vietnamese Food Sydney offers the extraordinary? We’re not just a dot on Sydney’s food map—we’re the beating heart of Vietnamese cuisine in this city. Search “best Vietnamese restaurant Sydney” and watch us dominate the conversation. Whether you’re mad for pho, hooked on bánh mì, or itching to explore what Vietnamese food can be, we deliver a feast that sears itself into your soul. Swing by today, snag a table, or grab takeaway to let our kitchen’s fire light up your night. Vietnamese Food Sydney isn’t just calling—it’s roaring. Answer it.                  </p>
+                
+                </div>
+                <a href="#contact" class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
+                    <i class="far fa-comments mr-4"></i>
+                    Contact
+                </a>
+            </div>           
+        </div>        
+    </div>
+    <div id="contact" class="parallax-window relative" data-parallax="scroll" data-image-src="img/antique-cafe-bg-04.jpg">
+        <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
+            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-green">Contact Us</h2>
+                    <p class="mb-6 text-lg leading-8">
+                        Track down Sydney’s Vietnamese flavour kings at Vietnamese Food Sydney – hunt us out at SYDNEY!    
+                    </p>
+                   <!-- <p class="mb-10 text-lg">
+                        <span class="block mb-2">Tel: <a href="tel:0100200340" class="hover:text-yellow-600 transition">00000</a></span>
+                        <span class="block">Email: <a href="mailto:info@company.com" class="hover:text-yellow-600 transition">info@company.com</a></span>                        
+                    </p> -->
+                    <div class="text-center">
+                        <a href="" class="inline-block text-white text-2xl pl-10 pr-12 py-6 rounded-lg transition tm-bg-green">
+                            <i class="fas fa-map-marked-alt mr-8"></i>
+                            Open Maps
+                        </a>
+                    </div>                    
+                </div>
+                <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
+
+                </div>
+            </div>
+            <footer class="absolute bottom-0 left-0 w-full">
+                <div class="text-white container mx-auto tm-container p-8 text-lg flex flex-col md:flex-row justify-between">
+                    <span>Copyright 2022 Vietnamese Food Sydney. All rights reserved.</span>
+                    <span class="mt-5 md:mt-0">Owned by <a href="" target="_parent">CC Capital</a></span>
+                </div>                
+            </footer>
+        </div>        
+    </div>    
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script>
+
+        function checkAndShowHideMenu() {
+            if(window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');                
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
+
+        $(function(){
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
+
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
+
+            $('#menu-toggle').click(function(){
+                $('#tm-nav ul').toggleClass('hidden');
+            });
+
+            $('#tm-nav ul li').click(function(){
+                if(window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }                
+            });
+
+            $(document).scroll(function() {
+                var distanceFromTop = $(document).scrollTop();
+
+                if(distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
